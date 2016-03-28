@@ -1,0 +1,191 @@
+<div class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" ng-click="close(false)" data-dismiss="modal"
+                        aria-hidden="true">&times;</button>
+                <h4 class="modal-title">DETAIL PRODUK</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="widget-box transparent">
+                            <div class="widget-header ui-sortable-handle">
+                                <h4 class="widget-title lighter">Galeri</h4>
+                            </div>
+
+                            <div class="widget-body">
+                                <div class="widget-main padding-6 no-padding-left no-padding-right">
+                                    <!--  <a href="#" class="thumbnail" ng-click="showyesno()">
+                                          <img src="assets/images/default.jpg" alt="Generic placeholder thumbnail">
+                                      </a>-->
+                                    <ul class="ace-thumbnails clearfix">
+
+                                        <li>
+                                            <a href="assets/images/default.jpg" data-rel="colorbox"
+                                               class="cboxElement">
+                                                <img width="255" height="170" src="assets/images/default.jpg">
+                                                <div class="text">
+                                                    <div class="inner">Sample Caption on Hover</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 widget-container-col ui-sortable">
+                        <div class="widget-box widget-color-dark">
+                            <div class="widget-header ui-sortable-handle">
+                                <h6 class="widget-title">Spesifikasi</h6>
+                            </div>
+
+                            <div class="widget-body">
+                                <div class="widget-main padding-4" data-size="300"
+                                     style="position: relative;">
+                                    <div class="scroll-content" style="max-height: 300px;overflow-y: scroll;">
+                                        <div class="content">
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-danger">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-danger">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-danger">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-danger">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-danger">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-danger">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-success">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                            <div class="alert alert-info">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" ng-click="close(false)" class="btn btn-default" data-dismiss="modal">No</button>
+                <button type="button" ng-click="close(true)" class="btn btn-primary" data-dismiss="modal">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- page specific plugin scripts -->
+<script src="assets/js/jquery.colorbox.min.js"></script>
+
+
+<!-- inline scripts related to this page -->
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        var $overflow = '';
+        var colorbox_params = {
+            rel: 'colorbox',
+            reposition: true,
+            scalePhotos: true,
+            scrolling: false,
+            previous: '<i class="ace-icon fa fa-arrow-left"></i>',
+            next: '<i class="ace-icon fa fa-arrow-right"></i>',
+            close: '&times;',
+            current: '{current} of {total}',
+            maxWidth: '100%',
+            maxHeight: '100%',
+            onOpen: function () {
+                $overflow = document.body.style.overflow;
+                document.body.style.overflow = 'hidden';
+            },
+            onClosed: function () {
+                document.body.style.overflow = $overflow;
+            },
+            onComplete: function () {
+                $.colorbox.resize();
+            }
+        };
+
+        $('.ace-thumbnails [data-rel="colorbox"]').colorbox(colorbox_params);
+        $("#cboxLoadingGraphic").html("<i class='ace-icon fa fa-spinner orange fa-spin'></i>");//let's add a custom loading icon
+
+
+        $(document).one('ajaxloadstart.page', function (e) {
+            $('#colorbox, #cboxOverlay').remove();
+        });
+    })
+</script>
